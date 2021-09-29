@@ -40,6 +40,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('ListTables').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data1",
