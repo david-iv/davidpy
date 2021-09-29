@@ -1,0 +1,9 @@
+{
+	"name": "olorireadf",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d4bdd2e1-5b5b-4826-b144-5ea7f765322f",
+		"tenantId": "10855e63-c9e5-45a1-9c6f-42ca5aeb48e6"
+	}
+}
