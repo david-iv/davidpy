@@ -2,7 +2,7 @@
 	"name": "AzureSqlDataset2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SQLLinkedService",
+			"referenceName": "SQLLinkedservice2",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
