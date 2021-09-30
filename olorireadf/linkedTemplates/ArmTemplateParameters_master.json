@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "olorireadf"
+		},
+		"APIRest_password": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"BlobLinkedService_connectionString": {
+			"value": ""
+		},
+		"SQLLinkedService_connectionString": {
+			"value": ""
+		},
+		"SQLLinkedservice2_connectionString": {
+			"value": ""
+		},
+		"jsonblob_connectionString": {
+			"value": ""
+		},
+		"APIRest_properties_typeProperties_url": {
+			"value": "https://api.genderize.io?name=luc"
+		},
+		"APIRest_properties_typeProperties_userName": {
+			"value": "olorireserver"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
