@@ -2,8 +2,12 @@
 	"name": "AzureSqlDataset2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SQLLinkedService",
-			"type": "LinkedServiceReference"
+			"referenceName": "SQLLinkedservice2",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"TableName": "Carz",
+				"SchemaName": "dbo"
+			}
 		},
 		"parameters": {
 			"TableName": {
